@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, cart context, and route definitions for all pages (home, category, product detail, about, cart).",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching categories, products by category, featured products, search results, and brand information from the backend.",
+  "frontend/src/contexts/CartContext.tsx": "Shopping cart context provider managing cart state, localStorage persistence, and cart operations (add, remove, update, clear).",
+  "frontend/src/components/Layout.tsx": "Root layout component wrapping all pages with header and footer, using TanStack Router's Outlet for page content.",
+  "frontend/src/components/Header.tsx": "Responsive navigation header with logo, category links using proper TanStack Router params, search functionality, cart icon with item count badge, and mobile menu.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand logo, quick links using proper router params for categories, contact information, social media icons, and attribution to caffeine.ai.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image, name, description, price, category, and featured/stock badges with proper router navigation using params.",
+  "frontend/src/pages/HomePage.tsx": "Homepage with hero section, category showcase using proper router params, featured products grid, and brand promise section highlighting quality and service.",
+  "frontend/src/pages/CategoryPage.tsx": "Category listing page displaying filtered products in a responsive grid with product count and filter button.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Detailed product view with image gallery, size/color selection, quantity controls, add to cart functionality, and product information.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page showing cart items with quantity controls, remove options, order summary with totals, and checkout button using proper router navigation.",
+  "frontend/src/pages/AboutPage.tsx": "About page displaying brand story, mission, values, heritage, and craftsmanship information with hero image and content sections.",
+  "frontend/src/index.css": "Global styles with luxurious gold-on-black color system using HSL values, custom gold color utilities, and serif font for headings.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color palette for gold theme, custom font families (Inter and Playfair Display), and design tokens."
+}
